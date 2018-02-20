@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/hello/hello.cpp
+iostream
+-
+

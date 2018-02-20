@@ -1,0 +1,492 @@
+The system is: Darwin - 15.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/3.3.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/mpic++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/3.3.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddeaa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ddeaa.dir/build.make CMakeFiles/cmTC_ddeaa.dir/build
+Building C object CMakeFiles/cmTC_ddeaa.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_ddeaa.dir/testCCompiler.c.o   -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_ddeaa
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddeaa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ddeaa.dir/testCCompiler.c.o  -o cmTC_ddeaa  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba3cd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ba3cd.dir/build.make CMakeFiles/cmTC_ba3cd.dir/build
+Building C object CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ba3cd
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba3cd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o  -o cmTC_ba3cd   
+Apple LLVM version 7.0.0 (clang-700.1.76)
+Target: x86_64-apple-darwin15.0.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_ba3cd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-253.6
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ba3cd/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ba3cd.dir/build.make CMakeFiles/cmTC_ba3cd.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ba3cd]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba3cd.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o  -o cmTC_ba3cd   ]
+  ignore line: [Apple LLVM version 7.0.0 (clang-700.1.76)]
+  ignore line: [Target: x86_64-apple-darwin15.0.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_ba3cd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ba3cd] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ba3cd.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db658/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_db658.dir/build.make CMakeFiles/cmTC_db658.dir/build
+Building C object CMakeFiles/cmTC_db658.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_db658.dir/feature_tests.c.o   -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_db658
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db658.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_db658.dir/feature_tests.c.o  -o cmTC_db658  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9e64/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e9e64.dir/build.make CMakeFiles/cmTC_e9e64.dir/build
+Building C object CMakeFiles/cmTC_e9e64.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e9e64.dir/feature_tests.c.o   -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_e9e64
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9e64.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e9e64.dir/feature_tests.c.o  -o cmTC_e9e64  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62afc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62afc.dir/build.make CMakeFiles/cmTC_62afc.dir/build
+Building C object CMakeFiles/cmTC_62afc.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_62afc.dir/feature_tests.c.o   -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_62afc
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62afc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62afc.dir/feature_tests.c.o  -o cmTC_62afc  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f1f8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9f1f8.dir/build.make CMakeFiles/cmTC_9f1f8.dir/build
+Building CXX object CMakeFiles/cmTC_9f1f8.dir/testCXXCompiler.cxx.o
+/usr/local/bin/mpic++     -o CMakeFiles/cmTC_9f1f8.dir/testCXXCompiler.cxx.o -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_9f1f8
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f1f8.dir/link.txt --verbose=1
+/usr/local/bin/mpic++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9f1f8.dir/testCXXCompiler.cxx.o  -o cmTC_9f1f8  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0530f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0530f.dir/build.make CMakeFiles/cmTC_0530f.dir/build
+Building CXX object CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/mpic++     -o CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_0530f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0530f.dir/link.txt --verbose=1
+/usr/local/bin/mpic++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0530f   
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/lto-wrapper
+Target: x86_64-apple-darwin14.0.0
+Configured with: ../gcc-4.9-20141029/configure --enable-languages=c++,fortran
+Thread model: posix
+gcc version 4.9.2 20141029 (prerelease) (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/:/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.0' '-v' '-o' 'cmTC_0530f' '-I' '/usr/local/include' '-L/usr/local/lib' '-shared-libgcc' '-mtune=core2'
+ /usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.0 -weak_reference_mismatches non-weak -o cmTC_0530f -L/usr/local/lib -L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2 -L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o -lmpi_cxx -lmpi -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 4.9.2 20141029 (prerelease)
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.11.0 -weak_reference_mismatches non-weak -o cmTC_0530f -L/usr/local/lib -L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2 -L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o -lmpi_cxx -lmpi -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-253.3
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+@(#)PROGRAM:ld  PROJECT:ld64-253.3
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+Library search paths:
+	/usr/local/lib
+	/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2
+	/usr/local/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0530f/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0530f.dir/build.make CMakeFiles/cmTC_0530f.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/mpic++     -o CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_0530f]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0530f.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/mpic++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0530f   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin14.0.0]
+  ignore line: [Configured with: ../gcc-4.9-20141029/configure --enable-languages=c++,fortran]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 20141029 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/:/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/:/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.0' '-v' '-o' 'cmTC_0530f' '-I' '/usr/local/include' '-L/usr/local/lib' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.0 -weak_reference_mismatches non-weak -o cmTC_0530f -L/usr/local/lib -L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2 -L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o -lmpi_cxx -lmpi -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/libexec/gcc/x86_64-apple-darwin14.0.0/4.9.2/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0530f] ==> ignore
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2] ==> dir [/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2]
+    arg [-L/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../..] ==> dir [/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_0530f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lmpi_cxx] ==> lib [mpi_cxx]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/lib;/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2;/usr/local/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [gcc_ext.10.5]
+  remove lib [gcc]
+  remove lib [System]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2] ==> [/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2]
+  collapse library dir [/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2/../../..] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2] ==> [/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [mpi_cxx;mpi;stdc++]
+  implicit dirs: [/usr/local/lib;/usr/local/lib/gcc/x86_64-apple-darwin14.0.0/4.9.2;/usr/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca15c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ca15c.dir/build.make CMakeFiles/cmTC_ca15c.dir/build
+Building CXX object CMakeFiles/cmTC_ca15c.dir/feature_tests.cxx.o
+/usr/local/bin/mpic++    -std=c++14 -o CMakeFiles/cmTC_ca15c.dir/feature_tests.cxx.o -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_ca15c
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca15c.dir/link.txt --verbose=1
+/usr/local/bin/mpic++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ca15c.dir/feature_tests.cxx.o  -o cmTC_ca15c  
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fde74/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fde74.dir/build.make CMakeFiles/cmTC_fde74.dir/build
+Building CXX object CMakeFiles/cmTC_fde74.dir/feature_tests.cxx.o
+/usr/local/bin/mpic++    -std=c++11 -o CMakeFiles/cmTC_fde74.dir/feature_tests.cxx.o -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_fde74
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde74.dir/link.txt --verbose=1
+/usr/local/bin/mpic++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fde74.dir/feature_tests.cxx.o  -o cmTC_fde74  
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c18a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9c18a.dir/build.make CMakeFiles/cmTC_9c18a.dir/build
+Building CXX object CMakeFiles/cmTC_9c18a.dir/feature_tests.cxx.o
+/usr/local/bin/mpic++    -std=c++98 -o CMakeFiles/cmTC_9c18a.dir/feature_tests.cxx.o -c "/Users/raju/Desktop/Masters COSSE/FAU 1st Sem/SiWiR1/Ex04/Assignment4_new/Assignment4/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_9c18a
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c18a.dir/link.txt --verbose=1
+/usr/local/bin/mpic++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9c18a.dir/feature_tests.cxx.o  -o cmTC_9c18a  
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
