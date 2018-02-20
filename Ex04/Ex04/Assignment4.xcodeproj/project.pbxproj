@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1C1F5B1C4BB9B500EEFF32 /* ParabolicSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C1F591C4BB9B500EEFF32 /* ParabolicSolver.cpp */; };
+		3FE9E7BB1C4D840300C474B1 /* global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9E7B91C4D840300C474B1 /* global.cpp */; };
+		84531A971C49ACC400E50F97 /* libmpi_cxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84531A951C49ACC400E50F97 /* libmpi_cxx.dylib */; };
+		84531A981C49ACC400E50F97 /* libmpi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84531A961C49ACC400E50F97 /* libmpi.dylib */; };
+		84BF5ADD1C3C067400C5B51C /* heattransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BF5ADC1C3C067400C5B51C /* heattransfer.cpp */; };
+		84E34B341C4A495400076E99 /* Explicit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E34B321C4A495400076E99 /* Explicit.cpp */; };
+		84E34B371C4A4A4200076E99 /* Implicit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E34B351C4A4A4200076E99 /* Implicit.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84BF5AD71C3C067400C5B51C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F1C1F591C4BB9B500EEFF32 /* ParabolicSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParabolicSolver.cpp; sourceTree = "<group>"; };
+		3FE9E7B91C4D840300C474B1 /* global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = global.cpp; sourceTree = "<group>"; };
+		3FE9E7BA1C4D840300C474B1 /* global.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = global.hpp; sourceTree = "<group>"; };
+		84531A951C49ACC400E50F97 /* libmpi_cxx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpi_cxx.dylib; path = Assignment4/libmpi_cxx.dylib; sourceTree = "<group>"; };
+		84531A961C49ACC400E50F97 /* libmpi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpi.dylib; path = Assignment4/libmpi.dylib; sourceTree = "<group>"; };
+		84BF5AD91C3C067400C5B51C /* Assignment4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment4; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF5ADC1C3C067400C5B51C /* heattransfer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heattransfer.cpp; sourceTree = "<group>"; };
+		84E34B311C4A489B00076E99 /* ParabolicSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParabolicSolver.h; sourceTree = "<group>"; };
+		84E34B321C4A495400076E99 /* Explicit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Explicit.cpp; sourceTree = "<group>"; };
+		84E34B331C4A495400076E99 /* Explicit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Explicit.hpp; sourceTree = "<group>"; };
+		84E34B351C4A4A4200076E99 /* Implicit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Implicit.cpp; sourceTree = "<group>"; };
+		84E34B361C4A4A4200076E99 /* Implicit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Implicit.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BF5AD61C3C067400C5B51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84531A971C49ACC400E50F97 /* libmpi_cxx.dylib in Frameworks */,
+				84531A981C49ACC400E50F97 /* libmpi.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BF5AD01C3C067400C5B51C = {
+			isa = PBXGroup;
+			children = (
+				84531A951C49ACC400E50F97 /* libmpi_cxx.dylib */,
+				84531A961C49ACC400E50F97 /* libmpi.dylib */,
+				84BF5ADB1C3C067400C5B51C /* Assignment4 */,
+				84BF5ADA1C3C067400C5B51C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BF5ADA1C3C067400C5B51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BF5AD91C3C067400C5B51C /* Assignment4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BF5ADB1C3C067400C5B51C /* Assignment4 */ = {
+			isa = PBXGroup;
+			children = (
+				84BF5ADC1C3C067400C5B51C /* heattransfer.cpp */,
+				84E34B311C4A489B00076E99 /* ParabolicSolver.h */,
+				84E34B321C4A495400076E99 /* Explicit.cpp */,
+				84E34B331C4A495400076E99 /* Explicit.hpp */,
+				84E34B351C4A4A4200076E99 /* Implicit.cpp */,
+				84E34B361C4A4A4200076E99 /* Implicit.hpp */,
+				3F1C1F591C4BB9B500EEFF32 /* ParabolicSolver.cpp */,
+				3FE9E7B91C4D840300C474B1 /* global.cpp */,
+				3FE9E7BA1C4D840300C474B1 /* global.hpp */,
+			);
+			path = Assignment4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BF5AD81C3C067400C5B51C /* Assignment4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF5AE01C3C067400C5B51C /* Build configuration list for PBXNativeTarget "Assignment4" */;
+			buildPhases = (
+				84BF5AD51C3C067400C5B51C /* Sources */,
+				84BF5AD61C3C067400C5B51C /* Frameworks */,
+				84BF5AD71C3C067400C5B51C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment4;
+			productName = Assignment4;
+			productReference = 84BF5AD91C3C067400C5B51C /* Assignment4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BF5AD11C3C067400C5B51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sagar Dolas";
+				TargetAttributes = {
+					84BF5AD81C3C067400C5B51C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 84BF5AD41C3C067400C5B51C /* Build configuration list for PBXProject "Assignment4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84BF5AD01C3C067400C5B51C;
+			productRefGroup = 84BF5ADA1C3C067400C5B51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BF5AD81C3C067400C5B51C /* Assignment4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BF5AD51C3C067400C5B51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C1F5B1C4BB9B500EEFF32 /* ParabolicSolver.cpp in Sources */,
+				84BF5ADD1C3C067400C5B51C /* heattransfer.cpp in Sources */,
+				3FE9E7BB1C4D840300C474B1 /* global.cpp in Sources */,
+				84E34B371C4A4A4200076E99 /* Implicit.cpp in Sources */,
+				84E34B341C4A495400076E99 /* Explicit.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84BF5ADE1C3C067400C5B51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84BF5ADF1C3C067400C5B51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84BF5AE11C3C067400C5B51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Assignment4",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84BF5AE21C3C067400C5B51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Assignment4",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BF5AD41C3C067400C5B51C /* Build configuration list for PBXProject "Assignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF5ADE1C3C067400C5B51C /* Debug */,
+				84BF5ADF1C3C067400C5B51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF5AE01C3C067400C5B51C /* Build configuration list for PBXNativeTarget "Assignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF5AE11C3C067400C5B51C /* Debug */,
+				84BF5AE21C3C067400C5B51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BF5AD11C3C067400C5B51C /* Project object */;
+}

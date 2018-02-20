@@ -1,0 +1,1 @@
+mpicxx    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/heat.dir/heattransfer.cpp.o CMakeFiles/heat.dir/ParabolicSolver.cpp.o CMakeFiles/heat.dir/Implicit.cpp.o CMakeFiles/heat.dir/Explicit.cpp.o CMakeFiles/heat.dir/global.cpp.o  -o heat  
